@@ -1,7 +1,7 @@
 name: OptimizedTNTPlugin
 version: 1.0.0
 main: com.optimizetnt1.OptimizeTNT1
-author: YourName
+author: Redblazer23
 description: Plugin to optimize TNT explosions
 commands:
   optimizedTNT:
