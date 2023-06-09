@@ -1,0 +1,4 @@
+name: OptimizeTNT 1
+version: '${version}'
+main: com.optimizetnt1.OptimizeTNT1
+api-version: 1.19
