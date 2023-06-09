@@ -1,4 +1,9 @@
-name: OptimizeTNT 1
-version: '${version}'
+name: OptimizedTNTPlugin
+version: 1.0.0
 main: com.optimizetnt1.OptimizeTNT1
-api-version: 1.19
+author: YourName
+description: Plugin to optimize TNT explosions
+commands:
+  optimizedTNT:
+    description: Enable or disable optimized TNT explosions
+    usage: /optimizedTNT <on/off>
