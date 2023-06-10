@@ -26,7 +26,6 @@ public class OptimizedTNTPlugin extends JavaPlugin implements Listener, CommandE
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("optimizedTNT")) {
             if (args.length == 1) {
                 if (args[0].equalsIgnoreCase("on")) {
                     optimizedTNTEnabled = true;
@@ -40,8 +39,6 @@ public class OptimizedTNTPlugin extends JavaPlugin implements Listener, CommandE
             }
             sender.sendMessage("Invalid argument. Usage: /optimizedTNT <on/off>");
             return true;
-        }
-        return false;
     }
 
     @EventHandler
