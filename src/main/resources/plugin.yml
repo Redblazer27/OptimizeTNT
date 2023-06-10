@@ -4,6 +4,6 @@ main: com.optimizetnt1.OptimizeTNT1
 author: Redblazer23
 description: Plugin to optimize TNT explosions
 commands:
-  optimizedTNT:
+  optimizedtnt:
     description: Enable or disable optimized TNT explosions
     usage: /optimizedTNT <on/off>
